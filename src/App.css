@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Bonnet Grotesque Nr';
+    src: url('./fonts/BonnetGrotesqueNr.woff2') format('woff2'),
+        /* Современные браузеры */
+        url('./fonts/BonnetGrotesqueNr.woff') format('woff');
+    /* Старые браузеры */
+    font-weight: normal;
+    font-style: normal;
+}
+
+.text-border { /* Размер текста */
+    font-family: 'Bonnet Grotesque Nr', sans-serif; /* Шрифт текста */
+    color: transparent; /* Прозрачный цвет текста */
+    -webkit-text-stroke: 1px #ffffff; /* Обводка текста */
+}
