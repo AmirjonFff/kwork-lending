@@ -1,15 +1,35 @@
-@font-face {
-    font-family: 'Bonnet Grotesque Nr';
-    src: url('./fonts/BonnetGrotesqueNr.woff2') format('woff2'),
-        /* Современные браузеры */
-        url('./fonts/BonnetGrotesqueNr.woff') format('woff');
-    /* Старые браузеры */
-    font-weight: normal;
-    font-style: normal;
+body {
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    line-height: 1 !important;
 }
 
-.text-border { /* Размер текста */
-    font-family: 'Bonnet Grotesque Nr', sans-serif; /* Шрифт текста */
-    color: transparent; /* Прозрачный цвет текста */
-    -webkit-text-stroke: 1px #ffffff; /* Обводка текста */
+.mycontainer {
+    max-width: min(133vmin, 125vmax);
+}
+
+.ffnav {
+    font-size: min(2vmin, 3vmax);
+}
+
+.ffJOKS {
+    font-size: min(8vmin, 15vmax);
+}
+
+.ffTRANS {
+    font-size: min(16.75vmin, 25vmax);
+}
+
+.ffFOOT {
+    font-size: min(15.8vmin, 25vmax);
+}
+
+.ffABOUT {
+    padding: min(2.3vmin, 3vmax) min(7vmin, 9vmax);
+    font-size: min(2.2vmin, 3vmax);
+}
+
+.text-border {
+    color: transparent;
+    -webkit-text-stroke: 1px #ffffff;
 }
