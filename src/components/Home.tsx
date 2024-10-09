@@ -16,7 +16,7 @@ const Home = () => {
                         <a href="#bulletin" className="hidden md:block hover:text-yellow-400">Bulletin</a>
                         <a href="#contact" className="hidden md:block hover:text-yellow-400">Contact</a>
                     </nav>
-                    <div className="flex items-center bg-[#6c6c6c97] rounded-full gap-1 p-2">
+                    <div className="flex items-center bg-[#6c6c6c97] cursor-pointer rounded-full gap-1 p-2">
                         <img width={30} src="https://media.istockphoto.com/id/185228721/photo/old-british-flag-union-jack.jpg?s=612x612&w=0&k=20&c=wAhRV_YTdJlZRq4JGHebovy3CY-6-jRH3k4Vumisllk=" alt="" />
                         <img src="/Shape.svg" alt="" />
                     </div>
