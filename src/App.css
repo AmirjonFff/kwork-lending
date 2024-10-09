@@ -1,6 +1,14 @@
+@font-face {
+    font-family: 'BonnetGrotesqueNr';
+    src: url('/fonts/BebasNeue-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    letter-spacing: 2px;
+    font-weight: 400;
+    font-family: Inter, sans-serif;
+    font-style: normal;
     line-height: 1 !important;
 }
 
@@ -14,13 +22,16 @@ body {
 
 .ffJOKS {
     font-size: min(8vmin, 15vmax);
+    font-family: "Pathway Gothic One", sans-serif;
 }
 
 .ffTRANS {
-    font-size: min(16.75vmin, 25vmax);
+    font-family: "Pathway Gothic One", sans-serif;
+    font-size: min(16vmin, 20vmax);
 }
 
 .ffFOOT {
+    font-family: "Pathway Gothic One", sans-serif;
     font-size: min(15.8vmin, 25vmax);
 }
 
